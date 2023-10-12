@@ -1,0 +1,776 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap"); */
+
+body {
+  font-style: normal;
+
+  font-family: "Open Sans";
+  background-color: #f5f5f5;
+}
+
+/* body, body * {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+} 
+
+
+* {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+} this affects every element */
+
+nav ul li a.activ {
+  color: #61dafb;
+  color: #0898d6;
+}
+.card {
+  position: absolute;
+  width: 274px;
+  height: 230px;
+  left: 27px;
+  top: 140px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: aliceblue;
+}
+.card10 {
+  margin-top: 212px;
+  position: absolute;
+  width: 274px;
+  height: 112px;
+  left: 27px;
+  top: 174px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.card9 {
+  margin-top: 335px;
+  position: absolute;
+  width: 274px;
+  height: 226px;
+  left: 27px;
+  top: 180px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: small;
+}
+.card1 {
+  position: absolute;
+  width: 693px;
+  height: 158px;
+  left: 319px;
+  top: 140px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+.card2 {
+  position: absolute;
+  width: 293px;
+  height: 65px;
+  top: 140px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card03 {
+  position: absolute;
+  width: 293px;
+  height: 111px;
+  top: 425px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card0 {
+  position: absolute;
+  width: 293px;
+  height: 95px;
+  top: 215px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card04 {
+  position: absolute;
+  width: 293px;
+  height: 139px;
+  top: 101px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card01 {
+  position: absolute;
+  width: 293px;
+  height: 95px;
+  /* left: 1526px; */
+  top: 320px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card05 {
+  position: absolute;
+  width: 293px;
+  height: 139px;
+  /* left: 1526px; */
+  top: 252px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card02 {
+  position: absolute;
+  width: 293px;
+  height: 194px;
+  top: 550px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card06 {
+  position: absolute;
+  width: 293px;
+  height: 167px;
+  top: 403px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card07 {
+  position: absolute;
+  width: 293px;
+  height: 119px;
+  top: 582px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card4 {
+  position: absolute;
+  width: 293px;
+  height: 65px;
+  top: 289px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.butt {
+  margin-left: -196px;
+}
+.card3 {
+  position: absolute;
+  width: 982px;
+  height: 673px;
+  left: 494px;
+  top: 338px;
+}
+.btn-info {
+  background-color: aliceblue;
+  border: 0;
+  border-radius: 9px;
+  width: 100px;
+  color: #0898d6;
+}
+.card6 {
+  font-family: "Open Sans", sans-serif;
+  width: 676px;
+  background-color: #f9fbfc;
+  border-radius: 14px;
+}
+.card7 {
+  position: absolute;
+  width: 693px;
+  height: 512px;
+  left: 319px;
+  top: 140px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+.card13 {
+  position: absolute;
+  width: 274px;
+  height: 47px;
+  left: 27px;
+  top: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: aliceblue;
+}
+
+.card14 {
+  position: absolute;
+  width: 636px;
+  height: 125px;
+  left: 319px;
+  top: 40px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+.card014 {
+  position: absolute;
+  width: 701px;
+  height: 125px;
+  left: 319px;
+  top: 40px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+.card18 {
+  position: absolute;
+  width: 812px;
+  height: 228px;
+  left: 319px;
+  top: 180px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+.card018 {
+  position: absolute;
+  width: 701px;
+  height: 228px;
+  left: 319px;
+  top: 180px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+.card15 {
+  position: absolute;
+  width: 293px;
+  height: 49px;
+  top: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.card16 {
+  position: absolute;
+  width: 274px;
+  height: 101px;
+  left: 28px;
+  top: 100px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: aliceblue;
+}
+
+.card17 {
+  position: absolute;
+  width: 274px;
+  height: 101px;
+  left: 28px;
+  top: 218px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: aliceblue;
+}
+.btn:hover {
+  color: #0898d6;
+}
+.back {
+  background-color: #e2f6fd;
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+  margin-right: 9px;
+  margin-top: 9px;
+}
+.back1 {
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+  margin-right: 9px;
+  margin-top: 9px;
+}
+.back1:hover {
+  background-color: #e2f6fd;
+}
+.form-check1 {
+  color: #0898d6;
+}
+.form-check11 {
+  padding-left: 165px;
+}
+
+/*sarat three dat*/
+.showLeft {
+  text-shadow: white !important;
+  color: black !important;
+  padding: 10px;
+}
+.icons li {
+  background: none repeat scroll 0 0 black;
+  height: 5px;
+  width: 5px;
+  line-height: 0;
+  list-style: none outside none;
+  margin-right: -120px;
+  margin-top: 1px;
+  vertical-align: top;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.btn-left {
+  left: 0.4em;
+}
+.btn-right {
+  right: 0.4em;
+}
+.btn-left,
+.btn-right {
+  position: absolute;
+  top: 0.24em;
+  margin-right: -42px;
+}
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  /* right: 0.4em; */
+  margin-right: 57px;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  margin-top: 34px;
+  margin-right: -28px;
+  min-width: 127px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+.show {
+  margin-top: 4px;
+  display: block;
+}
+/*end three dat*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Trade+Winds&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.navbar {
+  background: #fff;
+  width: 100%;
+  height: 60px;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar_left .logo a {
+  font-family: "Trade Winds";
+  font-size: 20px;
+}
+.navbar .navbar_right {
+  display: flex;
+  margin-left: 81px;
+}
+.navbar .navbar_right img {
+  width: 35px;
+}
+.navbar .navbar_right .icon_wrap {
+  cursor: pointer;
+}
+.navbar .navbar_right .notifications {
+  margin-right: 25px;
+}
+.navbar .navbar_right .notifications .icon_wrap {
+  font-size: 28px;
+}
+.navbar .navbar_right .profile,
+.navbar .navbar_right .notifications {
+  position: relative;
+}
+.navbar .profile .profile_dd,
+.notification_dd {
+  position: absolute;
+  top: 48px;
+  right: -15px;
+  user-select: none;
+  background: #fff;
+  border: 1px solid #c7d8e2;
+  width: 350px;
+  height: auto;
+  z-index: 2;
+  display: none;
+  border-radius: 3px;
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.125),
+    -10px -10px 35px rgba(0, 0, 0, 0.125);
+}
+.navbar .profile .profile_dd:before,
+.notification_dd:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+.notification_dd li {
+  border-bottom: 1px solid #f1f2f4;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: -31px;
+}
+.notification_dd li .notify_icon {
+  display: flex;
+}
+.notification_dd li .notify_icon .icon {
+  display: inline-block;
+  background: url("https://i.imgur.com/MVJNkqW.png") no-repeat 0 0;
+  width: 40px;
+  height: 42px;
+}
+.notification_dd li.baskin_robbins .notify_icon .icon {
+  background-position: 0 -43px;
+}
+.notification_dd li.mcd .notify_icon .icon {
+  background-position: 0 -86px;
+}
+.notification_dd li.pizzahut .notify_icon .icon {
+  background-position: 0 -129px;
+}
+.notification_dd li.kfc .notify_icon .icon {
+  background-position: 0 -178px;
+}
+.notification_dd li .notify_data {
+  margin: 0 15px;
+  width: 185px;
+}
+.notification_dd li .notify_data .title {
+  color: #000;
+  font-weight: 600;
+}
+.notification_dd li .notify_data .sub_title {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+.notification_dd li .notify_status p {
+  font-size: 12px;
+}
+.notification_dd li.success .notify_status p {
+  color: #47da89;
+}
+.notification_dd li.failed .notify_status p {
+  color: #fb0001;
+}
+.notification_dd li.show_all {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.notification_dd li.show_all p {
+  font-weight: 700;
+  color: #3b80f9;
+  cursor: pointer;
+}
+.notification_dd li.show_all p:hover {
+  text-decoration: underline;
+}
+.navbar .navbar_right .profile .icon_wrap {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar_right .profile .name {
+  display: inline-block;
+  margin: 0 10px;
+}
+.navbar .navbar_right .icon_wrap:hover,
+.navbar .navbar_right .profile.active .icon_wrap,
+.navbar .navbar_right .notifications.active .icon_wrap {
+  color: #3b80f9;
+}
+.navbar .profile .profile_dd {
+  width: 225px;
+}
+.navbar .profile .profile_dd ul li {
+  border-bottom: 1px solid #f1f2f4;
+}
+.navbar .profile .profile_dd ul li a {
+  display: block;
+  padding: 15px 35px;
+  position: relative;
+}
+.navbar .profile .profile_dd ul li a .picon {
+  display: inline-block;
+  width: 30px;
+}
+.navbar .profile .profile_dd ul li a:hover {
+  color: #3b80f9;
+  background: #f0f5ff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.navbar .profile .profile_dd ul li.profile_li a:hover {
+  background: transparent;
+  cursor: default;
+  color: #7f8db0;
+}
+.navbar .profile .profile_dd ul li .btn {
+  height: 32px;
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  background: #3b80f9;
+  width: 125px;
+  margin: 5px auto 15px;
+}
+.navbar .profile .profile_dd ul li .btn:hover {
+  background: #6593e4;
+}
+.navbar .profile.active .profile_dd,
+.navbar .notifications.active .notification_dd {
+  display: block;
+}
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease;
+  display: none;
+}
+.popup .shadow {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.popup .inner_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.popup .notification_dd {
+  display: block;
+  position: static;
+  margin: 0 auto;
+  height: 357px;
+  overflow: auto;
+  margin-top: 442px;
+}
+.popup .notification_dd:before {
+  display: none;
+}
+.popup .notification_dd li.title {
+  font-weight: 700;
+  color: #3b80f9;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.popup .notification_dd li.title .close {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.popup .notification_dd li.title .close:hover {
+  opacity: 0.5;
+}
+
+.text {
+  width: 163px;
+  color: #0898d6;
+}
+
+.text1 {
+  width: 248px;
+}
+
+/*serch icon start*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+/* body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       } */
+
+.search {
+  width: 248px;
+  position: relative;
+  /* box-shadow: 0 0 40px rgba(51, 51, 51, .1); */
+}
+
+.search input {
+  height: 44px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid #0898d6;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 14px;
+  left: 27px;
+}
+
+.search button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+}
+
+/*serch icon end*/
+
+.btn-right {
+  margin-top: 36px;
+  position: absolute;
+  top: -1.76em;
+  margin-right: -128px;
+}
+
+/*Company Profile start*/
+
+/*Profile Pic Start*/
+.picture-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+.picture {
+  width: 106px;
+  height: 106px;
+  background-color: #999999;
+  border: 4px solid #cccccc;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-top: 58px;
+  margin-left: 49px;
+  /* margin: 0px auto; */
+  overflow: hidden;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+.picture:hover {
+  border-color: #2ca8ff;
+}
+.content.ct-wizard-green .picture:hover {
+  border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover {
+  border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover {
+  border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover {
+  border-color: #ff3b30;
+}
+.picture input[type="file"] {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0 !important;
+  position: absolute;
+  top: 0;
+  /* width: 100%; */
+}
+
+.picture-src {
+  width: 100%;
+}
+/*Profile Pic End*/
+
+/*Company Profile end*/
+
+.fa-camera {
+  font-size: 36px;
+  margin-top: -30px;
+  margin-left: 50px;
+  color: #0898d6;
+  margin-top: 67px;
+  margin-left: 21px;
+}
+.pic {
+  margin-left: -70px;
+  margin-top: -95px;
+}
+
+.form-select {
+  width: 200px;
+}
+
+/* .company{
+  text-align: -webkit-center;
+    background-color: white;
+    border-radius: 20px;
+} */
+
+.card22 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-color: #0898d6;
+  text-align: center;
+  border: 1px solid #0898d6;
+}
+
+.card22:hover {
+  color: #2ca8ff;
+  background-color: 1px solid rgb(14, 99, 42);
+}
+
+.btn-primary {
+  border-radius: 16px;
+  color: white;
+}
+
+.btn-outline-primary {
+  border-radius: 16px;
+}
+
+.card001 {
+  position: absolute;
+  width: 274px;
+  height: 200px;
+  left: 27px;
+  top: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: aliceblue;
+}
+.status {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.messages {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.colla {
+  background-color: #f9fbfc;
+  color: #000;
+}

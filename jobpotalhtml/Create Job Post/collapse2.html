@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Candidate2</title>
+
+
+      <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+      <link href="./nicelabel/css/jquery-nicelabel.css" rel="stylesheet" type="text/css" />
+      <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+      
+      <!-- <link rel="stylesheet" href="job.css">   -->
+
+      <!-- <link rel="stylesheet" href="search.css"> -->
+
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+
+   </head>
+
+
+
+   <style>
+
+
+
+
+    
+.circle-nicelabel{
+	display:none !important;
+}
+.rect-nicelabel{
+	display:none !important;
+}
+.text-nicelabel{
+	display:none !important;
+}
+
+.text-nicelabel + label {
+	font: 13px "Microsoft Yahei";
+	display: table;
+	font-size: 11px;
+	padding: 10px 20px 10px 10px;
+	background-color:rgba(0,140,186,1);
+	color: #b3b3b3;
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	transition:all 0.2s;
+			
+	
+}
+.text-nicelabel + label > span.nicelabel-unchecked,
+.text-nicelabel  + label > span.nicelabel-checked
+{
+	display: inline-block;
+	line-height: 16px;
+	margin-left:7px;
+	vertical-align: bottom;
+}
+.text-nicelabel + label > span.nicelabel-unchecked-image,
+.text-nicelabel  + label > span.nicelabel-checked-image
+{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+.text-nicelabel:not(:checked) + label 
+{
+	background-color: #DDDDDD;
+	color: #a7a7a7;
+}
+.text-nicelabel:not(:checked) + label > span.nicelabel-checked-image
+{
+	display: none;
+}
+.text-nicelabel:not(:checked) + label > span.nicelabel-checked
+{
+	display: none;
+}
+.text-nicelabel:checked + label 
+{
+	background-color: rgb(1, 2, 2);
+	color: #fff;
+}
+.text-nicelabel:checked + label > span.nicelabel-unchecked-image
+{
+	display: none;
+}
+.text-nicelabel:checked + label > span.nicelabel-unchecked
+{
+	display: none;
+}
+.text-nicelabel[disabled] + label 
+{
+	opacity:0.5;
+}
+
+.chota{
+      margin: 10px;
+    font-size: 12px;
+    }
+
+    .chota1{
+      margin-left: -226px;
+    font-size: 12px;
+    }
+
+    .icon{
+      margin-top: -6px;
+    margin-left: -94px;
+    font-size: 35px;
+
+    }
+    .top{
+      margin-top: -25px;
+    }
+    .apply{
+      
+    height: 45px;
+    background-color: #0898D6;
+    color: white;
+    border: 0px;
+
+    }
+
+    /* #text-checkbox{
+      /* margin-left: -51px; 
+    } */
+
+
+    .back{
+        font-size: 22px;
+    margin-top: 6px;
+    margin-left: 20rem;
+    }
+    .top{
+      margin-top: 130px;
+    }
+   </style>
+   <body>
+
+    
+<div class="container-fluid">
+
+<div class="row">
+
+    <div class="col-md-1 m-3">
+        <a href=""><i class="fa-solid fa-xmark mx-2"></i>Collapse</a>
+      </div>
+
+    <div class="col-md-6">
+
+    <div class="container py-3 d-flex flex-column">
+        <div class="card shadow rounded-3 border-0 my-auto">
+           
+            <div class="card-body p-4">
+              <h6>Let applicants call you directly <span style="color: #a3a2a2;">(Optional)</span></h6>
+                 <p>By providing your phone number you agree that Job Seekers can call you at this number for information regarding this job post.</p>
+              <input type="text" class="btn-sm">
+
+
+
+
+
+            </div>
+            <h6 class="mx-4">Would you like to applicants to submit a resume?</h6>
+<div class="row me-5">
+    <div class="col mx-4">
+    <div class="form-check">
+        <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault18">
+        <label class="form-check-label" for="flexRadioDefault18">
+          Yes
+        </label>
+      </div>
+</div>
+      
+<div class="col me-5">
+      <div class="form-check ">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault17">
+        <label class="form-check-label" for="flexRadioDefault17">
+          No
+        </label>
+      </div>
+</div>
+
+<div class="col me-5">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault16">
+        <label class="form-check-label" for="flexRadioDefault16">
+            Optional
+        </label>
+      </div>
+      </div>
+</div>
+
+
+<h6 class="mx-4">Is there any application deadline?</h6>
+
+<div class="row mx-3">
+    <div class="col">
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault15">
+        <label class="form-check-label" for="flexRadioDefault15">
+          Yes
+        </label>
+      </div>
+</div>
+      
+<div class="col me-5">
+     
+            <input type="date" id="birthday" name="birthday">
+       
+      
+</div>
+
+<div class="col me-5">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault14">
+        <label class="form-check-label" for="flexRadioDefault14">
+            No
+        </label>
+      </div>
+      </div>
+</div>
+
+
+
+<h6 class="top mx-4">Other Settings</h6>
+
+<h6 class="mx-4">Send daily updates about the job and applications to:</h6>
+<div class="col mx-4">
+<input type="text" for="gmail"  placeholder="admin@xhirez.com">
+</div>
+
+<a href="" class="mx-3 mt-3"><i class="fa-solid fa-plus mx-2"></i>Add Email</a>
+
+<div class="form-check mx-4 mt-2">
+    <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault13">
+    <label class="form-check-label" for="flexRadioDefault13">
+        Also send an individual email update each time someone applies
+    </label>
+  </div>
+
+  <h6 class="mx-4 mt-3">Do you want to let candidates who apply for your job start the conversation?</h6>
+
+
+  <p class="mx-4">Allow candidates to contact you about their applications.Messages will be sent to the same email address you provided for daily updates.</p>
+
+  <div class="row mx-3">
+    <div class="col">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault11">
+            <label class="form-check-label" for="flexRadioDefault11">
+            Yes
+            </label>
+          </div>
+    </div>
+
+
+    <div class="col">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+            <label class="form-check-label" for="flexRadioDefault12">
+                No
+            </label>
+          </div>
+    </div>
+</div>
+
+
+<div class="row mt-5">
+    <div class="col mt-5 d-flex justify-content-end">
+        <p class="back">Back</p>
+    </div>
+    <div class="col mt-5 mb-4 me-4 d-flex justify-content-end">
+        <button type="button" class="btn apply btn-lg">Save and Continue</button>
+    </div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+        <div class="col-md-4">
+            <h6>Live Preview</h6>
+
+            <div class="card shadow rounded-3 my-auto mt-3">
+                <p class="p-3 m-0">UI Designer</p>
+    
+                <div class="row mx-2">
+                  <div class="col m-0">
+                  <h6 class="chota m-0">Microsoft Pvt. Ltd.</h6>
+                  </div>
+                  <div class="col chota1">
+                    <h6 class="chota  m-0 mx-2"> <i class="fa-solid fa-location-dot mx-2"></i>Delhi, India</h6>
+                    </div>
+                </div>
+    
+                <div class="row mx-1 mt-2">
+                  <div class="col ">
+                  <h6 class="chota m-0"><i class="fa-solid fa-bag-shopping mx-1"></i>5-10 Years</h6>
+                  </div>
+                  <div class="col chota1">
+                    <h6 class="chota m-0"> <i class="fa-solid fa-money-bill mx-2"></i>10,000 - 20,000 PM</h6>
+                    </div>
+                </div>
+    
+    <div class="row mx-3 mt-3">
+                <div class="col">
+                <button type="button" class="btn3  rounded-3 btn-lg apply">Apply Now</button>
+        </div>
+    
+        <div class="col icon">
+          <i class="fa-regular fa-bookmark"></i>
+        </div>
+    
+    </div>
+    
+    <hr>
+    
+    
+    <h5 class="mx-3">Full Job Description</h5>
+    
+    <p class="mx-3">We're looking for a passionate UI/UX Web/Mobile/Interaction and Graphics Designer to create amazing user experiences, products and interaction concepts. Design seamless and pixel perfect User Interfaces for Web and Mobile Apps (iOS + Android).
+       <p class="mx-3"> Company details: VinSol | SnackMagic. Vinsol is now a part of Snackmagic. Snackmagic is a Venture Funded New York Headquartered Technology company. At Snackmagic, we have an innovative take on Corporate Gifting - making it super easy for an organiser to treat 1 or 10000 people within minutes. The choice of selection rests with the gift recipient. So it’s a win-win for all.</p>
+       <p class="mx-3"> Snackmagic started with only gifting snacks but has now added other offerings like Swag and Local specialities to the menu. </p>
+       <p class="mx-3">Visit vinsol.com | snackmagic.com for more details.</p>
+       <p class="mx-3"> Experience: 1 - 3 years</p>
+         <p class=" mx-3">Salary: 6 - 10 LPA</p>
+    
+    
+    <h5 class="mx-3">Responsibilities</h5>
+    
+    <ul class="mx-3 m-0">
+      <li> <p class="m-0">Communicate with management and engineering teams to understand, measure and estimate a high level project idea.</p></li>
+      <li><p class="m-0"> Understand the ecosystem of an idea and take a domain-oriented approach to conceptualize the product and derive innovative directions, visuals and experiences.</p></li> 
+       <li><p class="m-0"> Communicate with clients to understand their business goals and objectives</p></li> 
+       <li> <p class="m-0">Effectively communicate the idea behind design and product concepts to a diverse audience through wireframes, storyboards, user flows, process flows and product maps.</p></li>
+       <li><p class="m-0"> Design project and concept specific graphics.</p></li>
+       <li> <p class="m-0">Compile designs into thoughtful interactive prototypes over Invision.</p></li>
+       <li> <p class="m-0">Conduct an ongoing user research</p></li>
+       <li> <p class="m-0"> Collaborate with teams to ensure smooth adoption of designs and delivery of product.</p></li>
+    </ul>
+    
+    
+    <h5 class="mx-3 mt-3">Job type</h5>
+    
+    <ul class="mx-3">
+      <li><p>Full-time</p></li>
+      <li><p>Part-Time</p></li>
+    </ul>
+    
+    <h5 class="mx-3">Job schedule</h5>
+    
+    <ul class="mx-3">
+      <li> <p>Day-Shift</p></li>
+      <li> <p>Morning-Shift</p></li>
+    </ul>
+    
+              </div>
+
+        </div>
+
+   
+
+
+</div>
+</div>
+
+
+<script src="job.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="job.js"></script>
+   </body>
+</html>
